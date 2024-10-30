@@ -1,0 +1,16 @@
+[package]
+name = "dashbench"
+version = "0.1.0"
+edition = "2021"
+author = ["bergabman"]
+
+[dependencies]
+dashmap = "6.1.0"
+rayon = "1.10.0"
+
+[dev-dependencies]
+criterion = "0.5.1"
+
+[[bench]]
+name = "dashbench"
+harness = false
