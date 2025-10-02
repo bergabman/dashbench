@@ -2,7 +2,7 @@
 name = "dashbench"
 version = "0.1.0"
 edition = "2021"
-author = ["bergabman"]
+authors = ["bergabman"]
 
 [dependencies]
 dashmap = "6.1.0"
